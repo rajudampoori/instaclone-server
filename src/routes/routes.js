@@ -4,7 +4,11 @@ const bodyparser = require("body-parser")
 const route = express.Router()
 const data = require("./intialdata")
 const multer = require("multer")
+const cors = require("cors")
 
+route.use(express.json())
+route.use(express.urlencoded({extended:false}))
+route.use(cors())
 
 route.use(bodyparser())
 
