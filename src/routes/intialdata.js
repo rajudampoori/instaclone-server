@@ -4,7 +4,7 @@ const data = [
         location: "Bengaluru",
         likes: 64,
         description: "Kick start your career",
-        PostImage: "../images/10x.png",
+        PostImage: "../routes/images/10x.png",
         date: new Date(),
     },
     {
@@ -12,7 +12,7 @@ const data = [
         location: "Pune",
         likes: 30,
         description: "Sample Description",
-        PostImage: "../images/flight.jpg",
+        PostImage: "../routes/images/flight.jpg",
         date: new Date(),
     },
     {
@@ -20,7 +20,7 @@ const data = [
         location: "Hyderabad",
         likes: 30,
         description: "Sample Description",
-        PostImage: "../images/nature.jpg",
+        PostImage: "../routes/images/nature.jpg",
         date: new Date(),
     }
 ]
